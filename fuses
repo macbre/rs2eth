@@ -1,0 +1,26 @@
+<AVR name="m644" caption="ATmega644">
+<Fuse name="UNUSED_E7" state="1" />
+<Fuse name="UNUSED_E6" state="1" />
+<Fuse name="UNUSED_E5" state="1" />
+<Fuse name="UNUSED_E4" state="1" />
+<Fuse name="UNUSED_E3" state="1" />
+<Fuse name="BODLEVEL2" state="1" />
+<Fuse name="BODLEVEL1" state="1" />
+<Fuse name="BODLEVEL0" state="1" />
+<Fuse name="OCDEN" state="1" />
+<Fuse name="JTAGEN" state="1" />
+<Fuse name="SPIEN" state="0" />
+<Fuse name="WDTON" state="1" />
+<Fuse name="EESAVE" state="1" />
+<Fuse name="BOOTSZ1" state="0" />
+<Fuse name="BOOTSZ0" state="0" />
+<Fuse name="BOOTRST" state="1" />
+<Fuse name="CKDIV8" state="1" />
+<Fuse name="CKOUT" state="1" />
+<Fuse name="SUT1" state="1" />
+<Fuse name="SUT0" state="0" />
+<Fuse name="CKSEL3" state="0" />
+<Fuse name="CKSEL2" state="1" />
+<Fuse name="CKSEL1" state="1" />
+<Fuse name="CKSEL0" state="1" />
+</AVR>
