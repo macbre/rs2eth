@@ -8,13 +8,18 @@ a siecią Ethernet.
 
 Dostęp do portu szeregowego możliwy jest poprzez protokoły:
 * Telnet (port 23, [RFC 854](https://tools.ietf.org/html/rfc854))
-* VCOM (port 1123).
+* VCOM (port 1123)
  
 Konwerter wspiera standard opisany w dokumencie [RFC 2217](https://tools.ietf.org/html/rfc2217) (COM port suboption) pozwalając aplikacji na zdalną
 konfigurację parametrów transmisji szeregowej.
 
 Obsługiwany jest również protokół [MCHP Discovery](http://www.microchip.com/stellent/idcplg?IdcService=SS_GET_PAGE&nodeId=2505&param=en535724) (port 30303) pozwalający wykrywać urządzenia podłączone
-do lokalnej sieci ([Microchip Ethernet Discoverer](http://code.google.com/p/pic-moodlight/source/browse/branches/MCHPStack402/Microchip/TCPIP+Stack/Microchip+Ethernet+Discoverer/bin/Release/)).
+do lokalnej sieci.
+
+## Aplikacje pomocnicze
+
+* [Ponticulus](http://sourceforge.net/projects/ponticulus/) - wirtualny port szeregowy z obslugą zdalnych połączeń via telnet
+* [Microchip Ethernet Discoverer](http://code.google.com/p/pic-moodlight/source/browse/branches/MCHPStack402/Microchip/TCPIP+Stack/Microchip+Ethernet+Discoverer/bin/Release/) - wykrywanie rs2eth w lokalnej sieci
 
 ## RS232 over Internet
 
